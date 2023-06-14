@@ -10,11 +10,14 @@ const createLinks = () => {
 
 function Navigation() {
     return (
-        <div id="home">
-            <Navbar className='navigation__container' expand='md'>
-                <Navbar.Brand style={{marginLeft: '1rem'}} href='#home'>Gerardo J. Cruz.</Navbar.Brand>
+        <div id="home" >
+            <Navbar className='navigation__container' 
+                style={{zIndex: '2', position: 'fixed', top: '0', width: '100%'}}
+                collapseOnSelect
+                expand='md'>
+                <Navbar.Brand style={{marginLeft: '1rem', fontWeight: '700', fontSize: '2.5rem'}} href='#home'>Gerardo J. Cruz.</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
-                <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none'}}>
+                <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none', fontSize: '1.5rem'}}>
                     <Nav className='links' style={{margin: '0 1rem'}}>
                     {createLinks()}
                     </Nav>
