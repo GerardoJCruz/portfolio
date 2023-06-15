@@ -24,6 +24,11 @@
     margin: 0;
 }
 
+.about__text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 /*---------------------------------- MEDIA QUERIES -------------------------*/
 @media (min-width: 768px) {
     .about__container{

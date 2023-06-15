@@ -3,6 +3,7 @@ import Navigation from './screens/navigationBar/NavigationBar';
 import Particles from './Particles';
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
+import Technologies from './screens/technologies/Technologies';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header/>
       <Particles style={{overflow: 'hiden'}}/>
       <AboutMe/>
+      <Technologies/>
     </div>
   );
 }
