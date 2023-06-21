@@ -1,8 +1,7 @@
 import React from 'react'
-import './navigation.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { navigationLinks } from '../../helpers/navigationLinks'
+import { navigationLinks } from '../helpers/navigationLinks'
 
 const createLinks = () => {
     return navigationLinks.map((e, idx) => <Nav.Link key={idx} href={e.ref}>{e.name}</Nav.Link>)
@@ -16,9 +15,9 @@ function Navigation() {
                 collapseOnSelect
                 expand='md'>
                 <Navbar.Brand style={{marginLeft: '1rem', fontWeight: '700', fontSize: '2.5rem'}} href='#home'>Gerardo J. Cruz.</Navbar.Brand>
-                <Navbar.Toggle aria-controls='basic-navbar-nav' />
+                <Navbar.Toggle aria-controls='basic-navbar-nav' style={{border: '1px solid white', marginRight: '5px'}}/>
                 <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none', fontSize: '1.5rem'}}>
-                    <Nav className='links' style={{margin: '0 1rem'}}>
+                    <Nav className='links' style={{margin: '0 1rem', paddingInline: '2px'}}>
                     {createLinks()}
                     </Nav>
                 </Navbar.Collapse>

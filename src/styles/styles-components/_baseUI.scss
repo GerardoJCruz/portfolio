@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+.App {
+    font-family: 'Oswald', sans-serif;
+}
+
+:root{
+    --nav-color: #143c77;
+    --nav-color-hover: hsl(210, 11%, 45%);
+    --nav-border-color: hsl(210, 11%, 45%);
+    --light-color: hsl(209, 100%, 92%);
+    --font-color: hsl(0, 0%, 100%);
+    --font-color-hover: #7145c2;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

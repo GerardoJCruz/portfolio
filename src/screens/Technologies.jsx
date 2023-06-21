@@ -1,7 +1,6 @@
 import React from 'react'
-import './technologies.css'
 import DevIcon from "devicon-react-svg"
-import { techs } from '../../helpers/techs';
+import { techs } from '../helpers/techs';
 
 function Technologies() {
     return (

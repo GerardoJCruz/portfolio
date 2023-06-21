@@ -28,18 +28,20 @@
     border-radius: 3px;
     border-bottom: 5px solid var(--nav-color);
     transition: all 0.1s;
+
+    &:hover{background-color: var(--font-color-hover);
+        transform: scale(1.05);
+        color: white;
+    }
 }
 
 .tech__icons{
     height: 70px;
     background-color: var(--light-color);
     border-radius: 50%;
+
 }
 
-.tech__card:hover{
-    background-color: var(--font-color-hover);
-    transform: scale(1.05);
-}
 
 .techs__more{
     margin-block: 1.5rem;
@@ -48,9 +50,10 @@
     padding: 1rem;
     display: flex;
     justify-content: center;
-}
 
-.techs__more span{
-    color: white;
-    font-size: 2rem;
+    span{
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
 }

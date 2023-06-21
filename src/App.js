@@ -1,9 +1,11 @@
-import './App.css';
-import Navigation from './screens/navigationBar/NavigationBar';
+
+import Navigation from './screens/NavigationBar';
 import Particles from './Particles';
-import Header from './screens/header/Header';
-import AboutMe from './screens/aboutMe/AboutMe';
-import Technologies from './screens/technologies/Technologies';
+import Header from './screens/Header';
+import AboutMe from './screens/AboutMe';
+import Technologies from './screens/Technologies';
+import Portfolio from './portfolio/Portfolio';
+import ContactMe from './screens/ContactMe';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Particles style={{overflow: 'hiden'}}/>
       <AboutMe/>
       <Technologies/>
+      <Portfolio/>
+      <ContactMe/>
     </div>
   );
 }
