@@ -9,7 +9,7 @@ const createLinks = () => {
 
 function Navigation() {
     return (
-        <div id="home" >
+        <div id="home">
             <Navbar className='navigation__container' 
                 style={{zIndex: '2', position: 'fixed', top: '0', width: '100%'}}
                 collapseOnSelect

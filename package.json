@@ -11,13 +11,9 @@
     "react": "^18.1.0",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^18.1.0",
-    "react-particle-animation": "^2.0.2",
     "react-scripts": "4.0.3",
-    "react-tsparticles": "^2.10.1",
     "react-typed": "^1.2.0",
     "sass": "^1.63.5",
-    "tsparticles": "^2.10.1",
-    "tsparticles-updater-wobble": "^2.10.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
