@@ -3,6 +3,12 @@
     color           : white;
 }
 
+@media (min-width: 768px) {
+    .navigation__container{
+        padding-inline: 7%;
+    }
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: var(--font-color) !important;
 }
