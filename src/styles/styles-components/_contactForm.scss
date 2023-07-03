@@ -1,0 +1,52 @@
+.contactForm {
+    max-width       : 90%;
+    margin          : 0 auto;
+    display         : flex;
+    flex-direction  : column;
+    background-color: var(--light-color);
+    padding         : 3rem 2rem;
+    font-size       : 1.5rem;
+    color           : var(--nav-color);
+
+
+    &__message {
+        span {
+            font-weight: 700;
+        }
+
+        &__input {
+            height: 8rem;
+        }
+    }
+
+    &__button {
+        margin-top      : 3rem;
+        display         : inline;
+        max-width       : 7rem;
+        background-color: var(--nav-color);
+        border          : none;
+        padding         : .5rem 1.5rem;
+        color           : white;
+        border-radius   : 5px;
+
+        &:hover {
+            background-color: var(--font-color-hover);
+        }
+    }
+
+    &__succeded-alert {
+        margin   : 0 auto;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactForm {
+        max-width     : 1200px;
+        padding-inline: 10%;
+
+        &__succeded-alert {
+            font-size: 3rem;
+        }
+    }
+}

@@ -1,34 +1,42 @@
 export const techs = [
     {
         name: 'HTML5',
-        iconName: 'html5'
+        iconName: 'html5',
+        id: 'html'
     },
     {
         name: 'CSS',
-        iconName: 'css3'
+        iconName: 'css3',
+        id: 'css'
     },
     {
         name: 'Javascript',
-        iconName: 'javascript'
+        iconName: 'javascript',
+        id: 'js'
     },
     {
         name: 'React',
-        iconName: 'react'
+        iconName: 'react',
+        id: 'react'
     },
     {
         name: 'Bootstrap',
-        iconName: 'bootstrap'
+        iconName: 'bootstrap',
+        id: 'bootstrap'
     },
     {
         name: 'Sass',
-        iconName: 'sass'
+        iconName: 'sass',
+        id: 'sass'
     },
     {
         name: 'Git',
-        iconName: 'git'
+        iconName: 'git',
+        id: 'git'
     },
     {
         name: 'GitHub',
-        iconName: 'github'
+        iconName: 'github',
+        id: 'github'
     },
 ]

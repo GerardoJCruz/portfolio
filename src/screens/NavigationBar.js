@@ -14,7 +14,7 @@ function Navigation() {
                 style={{zIndex: '2', position: 'fixed', top: '0', width: '100%'}}
                 collapseOnSelect
                 expand='md'>
-                <Navbar.Brand style={{marginLeft: '1rem', fontWeight: '700', fontSize: '2.5rem'}} href='#home'>Gerardo J. Cruz.</Navbar.Brand>
+                <Navbar.Brand style={{marginLeft: '1rem', fontWeight: '700', fontSize: '2.5rem'}}  href='#home'>&#60;Gerardo J. Cruz/&#62;</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' style={{border: '1px solid white', marginRight: '5px'}}/>
                 <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none', fontSize: '1.5rem'}}>
                     <Nav className='links' style={{margin: '0 1rem', paddingInline: '2px'}}>

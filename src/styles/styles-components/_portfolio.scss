@@ -1,5 +1,9 @@
 .portfolio{
     background-color: aqua;
+
+    &__github{
+        font-size: 1.5rem;
+    }
 }
 
 .portfolio__main__container{

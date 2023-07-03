@@ -63,7 +63,7 @@ function Portfolio() {
     return (
         <div className="portfolio__main__container" id="portfolio">
             <h1>PORTFOLIO</h1>
-            <p>
+            <p className='portfolio__github'>
                 This is my Github page
                 <a href="https://github.com/Juan321654" target="_blank" rel="noreferrer"> https://github.com/Juan321654</a>
             </p>
