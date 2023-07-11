@@ -9,9 +9,9 @@ function createLinks(){
 
 function Footer() {
     return (
-        <div className='contactMe__container' >
-            <div className='contactMe__data__links'>
-                <div className='contactMe__contact'>
+        <div className='footer__container' >
+            <div className='footer__data__links'>
+                <div className='footer__contact'>
                     <p>Gerardo J. Cruz</p>
                     <p><a style={{textDecoration: 'none'}} href='https://www.linkedin.com/in/javier-cruz-914b811b1/' target="_blank" rel="noreferrer">Contact by LinkedIn</a></p>
                     <p><a style={{textDecoration: 'none'}} href='https://arc.dev/@gjaviercruz' target="_blank" rel="noreferrer">Contact by Arc.dev</a></p>

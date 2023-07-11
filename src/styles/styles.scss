@@ -1,13 +1,5 @@
-// UI Settings 
-@import './styles-components/baseUI';
+// Base UI styles 
+@use 'baseUI';
 
 // Components 
-@import './styles-components/header';
-@import './styles-components/aboutMe';
-@import './styles-components/navigationBar';
-@import './styles-components/technologies';
-@import './styles-components/portfolio';
-@import './styles-components/contactForm';
-@import './styles-components/contactMe';
-
-// Screens
+@use 'styles-components'
