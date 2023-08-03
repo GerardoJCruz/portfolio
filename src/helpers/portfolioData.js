@@ -4,6 +4,7 @@ import abysGallery from '../images/projectsicon/abys_gallery.png';
 import clonU from '../images/projectsicon/clon_u.png';
 import quoter from '../images/projectsicon/quoter.png';
 import podcast from '../images/projectsicon/potcast_gc.png';
+import imageSearch from '../images/projectsicon/image_search.png';
 
 const portfolioData = [
     {
@@ -46,6 +47,12 @@ const portfolioData = [
         desc: 'Podcast',
         summary: 'Page to publish podcast. ', 
         tech: 'CSS | HTML | JavaScript | Bootstrap | SASS'
+    },{
+        image: imageSearch,
+        link: 'https://pixabay-search-react-project.netlify.app/',
+        desc: 'Pixabay image search',
+        summary: 'Page to search for image using the Pixabay API', 
+        tech: 'CSS | HTML | JavaScript | Bootstrap | SASS | React.js'
     },
 
 ]
